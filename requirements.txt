@@ -1,0 +1,26 @@
+# ---- Core LangChain ecosystem ----
+langchain==0.3.27
+langchain-core==0.3.72
+langchain-community==0.3.27
+langchain-openai==0.3.25
+langchain-pinecone==0.2.9
+
+# ---- LLM dependencies ----
+openai>=1.40.0
+tiktoken>=0.7.0
+
+# ---- Embeddings (stable ML stack) ----
+sentence-transformers>=3.0.0,<4.2
+transformers==4.41.2
+torch>=2.2,<2.4
+huggingface-hub>=0.23.0
+
+# ---- App framework ----
+flask==3.1.2
+python-dotenv==1.1.1
+
+# ---- Document parsing ----
+pypdf==5.9.0
+
+
+-e .
